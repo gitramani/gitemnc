@@ -3,76 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ramanidevi R - Portfolio</title>
+  <title>Portfolio - Ramanidevi R</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Ramanidevi R</h1>
-    <p>Data Analytics | Data Science | SQL | Python</p>
-  </header>
-  
-  <nav>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#certifications">Certifications</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="resume.pdf" target="_blank">Resume</a></li>
-    </ul>
-  </nav>
-  
-  <div class="background-container">
-    <div class="background"></div>
+  <div class="container">
+    <div class="card">
+      <div class="front">
+        <h1>Ramanidevi R</h1>
+        <p>Data Analytics | Data Science | SQL | Python</p>
+      </div>
+      <div class="back">
+        <h2>Education</h2>
+        <p>M.Sc. Mathematics - PSGR Krishnammal College for Women, Coimbatore (2022 - Ongoing)</p>
+        <p>B.Sc. Mathematics - V.V. Vanniaperumal College for Women, Virudhunagar (March 2019)</p>
+        <p>Higher Secondary - PACR Ammani Ammal Girl's Higher Secondary School, Rajapalayam (2019 - 2022)</p>
+        <h2>Projects</h2>
+        <ul>
+          <li>Northwind Traders using Tableau</li>
+          <li>Heart Disease Data using Tableau</li>
+          <li>Airline Passenger Satisfaction Dashboard using Power BI</li>
+          <li>Bike Profit Analysis Dashboard using Power BI</li>
+          <li>Tracking Heart Health Data by using Excel</li>
+          <li>Bike Profit Analysis Dashboard using Excel</li>
+          <li>Data Exploration of Maven Movies by using SQL</li>
+          <li>Data Exploration of Motor Vehicle Thefts by using SQL</li>
+          <li>Solving the Diabetes Dataset Using Python</li>
+          <li>Predict COVID-19 Dataset Using Python</li>
+        </ul>
+        <h2>Contact</h2>
+        <p>Phone: +91 634532578</p>
+        <p>Email: RRDESAGUY43@MAIL.COM</p>
+        <p>LinkedIn: <a href="#" target="_blank">HVHFKJHKG</a></p>
+        <p>Location: Virudhunagar, Tamil Nadu</p>
+        <a href="resume.pdf" download><button>Download Resume</button></a>
+      </div>
+    </div>
   </div>
-
-  <section id="home">
-    <h2>Home</h2>
-    <p>Welcome to my portfolio!</p>
-  </section>
   
-  <section id="about">
-    <h2>About Me</h2>
-    <p>As a final year postgraduate, I'm passionate about data analytics, data science, SQL, and Python. My objective is to apply my skills and mindset to contribute effectively in a dynamic professional environment. I aim to solve real-world problems, extract insights from complex datasets, and drive informed decision-making.</p>
-  </section>
-  
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Graph Theory Insights - The Fascinating World of Colouring and Covering</h3>
-      <p>Postgraduate project focusing on graph theory.</p>
-    </div>
-    <div class="project">
-      <h3>Optimization Techniques in S.P.M Oil Company Using Excel Solver</h3>
-      <p>Undergraduate project on optimization techniques.</p>
-    </div>
-  </section>
-  
-  <section id="certifications">
-    <h2>Certifications</h2>
-    <ul>
-      <li>Job Oriented Course - Data Science, R Programming, and Tableau</li>
-      <li>Coursera - Introduction to Statistics</li>
-      <li>Coursera - Fibonacci Numbers and the Golden Ratio</li>
-    </ul>
-  </section>
-  
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>
-      Phone: +91 634532578<br>
-      Email: RRDESAGUY43@MAIL.COM<br>
-      LinkedIn: <a href="#" target="_blank">HVHFKJHKG</a><br>
-      Location: Virudhunagar, Tamil Nadu
-    </p>
-  </section>
-  
-  <footer>
-    <p>&copy; 2024 Ramanidevi R</p>
-  </footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
+
