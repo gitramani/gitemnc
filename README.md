@@ -1,25 +1,71 @@
-These Files Are my Analyst PortFolio Projects
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Dropdown Select Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dropdown">
+    <button class="dropbtn">Select an Option</button>
+    <div class="dropdown-content">
+      <a href="#">Option 1</a>
+      <a href="#">Option 2</a>
+      <a href="#">Option 3</a>
+    </div>
+  </div>
 
-I have Taken Different Types of dataset For My Dashboards And SQL Queries
+  <script src="script.js"></script>
+</body>
+</html>
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-Datasource
+/* Dropdown button */
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
 
-(KaggleWebsite)
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
-Tools
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
-(M.s Excel PoweBI Tableau My SQL Server)
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
-About My Projects
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-*For Excel DashBoard 1 I have Taken a Sales Stote Dataset Which located in Burma Here I have Created An InterActive Dashboard And Mentioned the KPI's And Report of Sales And Profit Through Various Segments
-
-*For Excel DashBoard 2 I have Taken a SuperMarket Dataset Which Located in U.S.A Here I have Created An Interactive Dashboard And Mentioned the KPI's And Report of Sales And Profit Through Various Segments
-
-*For PowerBI Dashboard 1 have Taken a EV (Electric Vehicle) Population Dataset Which Based on U.S.A Here i Have Created An Interactive Dashboard And Mentioned The KPI's And Report of BEV(Battery Electric Vehicle) And PHEV's(Plug in Hybrid Electric Vehicle) Population through Various Time period and States
-
-*For PowerBI Dashboard 2 have Taken a Disney Plus Hotstar Movies And TV Shows Dataset Which till 2021 here i have Created An Interactive Dashboard And Mentioned the KPI's And Report of Total Counts And Top Genre Tv Shows And Movies
-
-*For SQL File 1 I have Taken a Road Accident Dataset Here i have Made Queries to Find out KPI's And Report Of Total Casualties And Accidents Through Various Segments
-
-*For SQL File 2 I have Taken a Bank Loan Dataset Here i have Made Queries to Find out KPI's And Report Of Total LoanAmt Given And Received Through Various Segments
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #2980b9;
+}
+// JavaScript is not required for basic dropdown functionality
+// This script can be used for more advanced functionalities if needed
