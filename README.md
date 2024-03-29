@@ -3,45 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Ramanidevi R</title>
+  <title>Ramanidevi R - Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <div class="card">
-      <div class="front">
-        <h1>Ramanidevi R</h1>
-        <p>Data Analytics | Data Science | SQL | Python</p>
-      </div>
-      <div class="back">
-        <h2>Education</h2>
-        <p>M.Sc. Mathematics - PSGR Krishnammal College for Women, Coimbatore (2022 - Ongoing)</p>
-        <p>B.Sc. Mathematics - V.V. Vanniaperumal College for Women, Virudhunagar (March 2019)</p>
-        <p>Higher Secondary - PACR Ammani Ammal Girl's Higher Secondary School, Rajapalayam (2019 - 2022)</p>
-        <h2>Projects</h2>
-        <ul>
-          <li>Northwind Traders using Tableau</li>
-          <li>Heart Disease Data using Tableau</li>
-          <li>Airline Passenger Satisfaction Dashboard using Power BI</li>
-          <li>Bike Profit Analysis Dashboard using Power BI</li>
-          <li>Tracking Heart Health Data by using Excel</li>
-          <li>Bike Profit Analysis Dashboard using Excel</li>
-          <li>Data Exploration of Maven Movies by using SQL</li>
-          <li>Data Exploration of Motor Vehicle Thefts by using SQL</li>
-          <li>Solving the Diabetes Dataset Using Python</li>
-          <li>Predict COVID-19 Dataset Using Python</li>
-        </ul>
-        <h2>Contact</h2>
-        <p>Phone: +91 634532578</p>
-        <p>Email: RRDESAGUY43@MAIL.COM</p>
-        <p>LinkedIn: <a href="#" target="_blank">HVHFKJHKG</a></p>
-        <p>Location: Virudhunagar, Tamil Nadu</p>
-        <a href="resume.pdf" download><button>Download Resume</button></a>
-      </div>
-    </div>
-  </div>
+  <header>
+    <h1 class="animate__animated animate__bounceIn">Ramanidevi R</h1>
+    <p class="animate__animated animate__fadeInLeft">Data Analytics | Data Science | SQL | Python</p>
+  </header>
   
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="resume.pdf" target="_blank">Resume</a></li>
+    </ul>
+  </nav>
+  
+  <section id="home">
+    <div class="container">
+      <h2 class="animate__animated animate__fadeInDown">Profile</h2>
+      <p class="animate__animated animate__fadeInLeft">As a final year postgraduate, I'm passionate about data analytics, data science, SQL, and Python. My objective is to apply my skills and mindset to contribute effectively in a dynamic professional environment. I aim to solve real-world problems, extract insights from complex datasets, and drive informed decision-making.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2 class="animate__animated animate__fadeInDown">Projects</h2>
+      <div class="project animate__animated animate__fadeInLeft">
+        <h3>Northwind Traders using Tableau</h3>
+        <p>Data visualization project using Tableau for Northwind Traders.</p>
+        <div class="project-view">
+          <a href="northwind_traders_view.html" target="_blank">View Project</a>
+        </div>
+      </div>
+      <div class="project animate__animated animate__fadeInLeft">
+        <h3>Heart Disease Data USING Tableau</h3>
+        <p>Data visualization project using Tableau for Heart Disease Data.</p>
+        <div class="project-view">
+          <a href="heart_disease_view.html" target="_blank">View Project</a>
+        </div>
+      </div>
+      <!-- Add more projects similarly -->
+    </div>
+  </section>
+  
+  <section id="contact">
+    <div class="container">
+      <h2 class="animate__animated animate__fadeInDown">Contact</h2>
+      <p class="animate__animated animate__fadeInLeft">
+        Phone: +91 634532578<br>
+        Email: RRDESAGUY43@MAIL.COM<br>
+        LinkedIn: <a href="#" target="_blank">HVHFKJHKG</a><br>
+        Location: Virudhunagar, Tamil Nadu
+      </p>
+    </div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2024 Ramanidevi R</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
-
