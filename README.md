@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Portfolio with Animated Background</title>
+  <title>Responsive Portfolio with Resume</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,6 +17,7 @@
       <li><a href="#about">About</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#contact">Contact</a></li>
+      <li><a href="resume.pdf" target="_blank">Resume</a></li> <!-- Link to PDF resume -->
     </ul>
   </nav>
   
@@ -59,4 +60,5 @@
   <script src="script.js"></script>
 </body>
 </html>
+
 
