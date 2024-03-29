@@ -1,60 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>3D Booklet Portfolio</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div id="canvas-container"></div>
+These Files Are my Analyst PortFolio Projects
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="script.js"></script>
-</body>
-</html>
-body, html {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-#canvas-container {
-  width: 100%;
-  height: 100%;
-}
-// Set up Three.js scene
-const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-const renderer = new THREE.WebGLRenderer();
-renderer.setSize(window.innerWidth, window.innerHeight);
-document.getElementById('canvas-container').appendChild(renderer.domElement);
+I have Taken Different Types of dataset For My Dashboards And SQL Queries
 
-// Create booklet geometry
-const geometry = new THREE.BoxGeometry(1, 1, 0.1);
-const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-const booklet = new THREE.Mesh(geometry, material);
-scene.add(booklet);
+Datasource
 
-// Set camera position
-camera.position.z = 5;
+(KaggleWebsite)
 
-// Animate function
-function animate() {
-  requestAnimationFrame(animate);
-  booklet.rotation.x += 0.01;
-  booklet.rotation.y += 0.01;
-  renderer.render(scene, camera);
-}
+Tools
 
-// Resize event listener
-window.addEventListener('resize', function() {
-  const width = window.innerWidth;
-  const height = window.innerHeight;
-  renderer.setSize(width, height);
-  camera.aspect = width / height;
-  camera.updateProjectionMatrix();
-});
+(M.s Excel PoweBI Tableau My SQL Server)
 
-// Start animation
-animate();
+About My Projects
 
+*For Excel DashBoard 1 I have Taken a Sales Stote Dataset Which located in Burma Here I have Created An InterActive Dashboard And Mentioned the KPI's And Report of Sales And Profit Through Various Segments
+
+*For Excel DashBoard 2 I have Taken a SuperMarket Dataset Which Located in U.S.A Here I have Created An Interactive Dashboard And Mentioned the KPI's And Report of Sales And Profit Through Various Segments
+
+*For PowerBI Dashboard 1 have Taken a EV (Electric Vehicle) Population Dataset Which Based on U.S.A Here i Have Created An Interactive Dashboard And Mentioned The KPI's And Report of BEV(Battery Electric Vehicle) And PHEV's(Plug in Hybrid Electric Vehicle) Population through Various Time period and States
+
+*For PowerBI Dashboard 2 have Taken a Disney Plus Hotstar Movies And TV Shows Dataset Which till 2021 here i have Created An Interactive Dashboard And Mentioned the KPI's And Report of Total Counts And Top Genre Tv Shows And Movies
+
+*For SQL File 1 I have Taken a Road Accident Dataset Here i have Made Queries to Find out KPI's And Report Of Total Casualties And Accidents Through Various Segments
+
+*For SQL File 2 I have Taken a Bank Loan Dataset Here i have Made Queries to Find out KPI's And Report Of Total LoanAmt Given And Received Through Various Segments
